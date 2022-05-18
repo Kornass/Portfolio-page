@@ -99,11 +99,35 @@ ul li a {
     opacity: 1;
   }
 }
-
-#about {
+h2 {
   text-align: center;
-}
-#about h2 {
-  margin-top: 5%;
+  margin-top: 3%;
   text-shadow: -1px 1px 0px rgb(101, 71, 224), -2px 2px 0px rgb(225, 35, 25);
+}
+.desc {
+  display: flex;
+  margin-top: 3em;
+  justify-content: space-between;
+}
+.desc img {
+  width: 15%;
+  height: 15%;
+  margin-left: 10%;
+}
+.desc p {
+  width: 60%;
+  margin-right: 3%;
+  text-align: justify;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skills p {
+  display: flex;
+  flex: 1 0 10%;
+  margin: 2em;
+  justify-content: center;
+  font-size: 1.5em;
 }
