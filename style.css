@@ -131,3 +131,7 @@ h2 {
   justify-content: center;
   font-size: 1.5em;
 }
+.skills p:hover {
+  text-shadow: -1px 1px 0px rgb(101, 71, 224), -2px 2px 0px rgb(225, 35, 25);
+  cursor: pointer;
+}
