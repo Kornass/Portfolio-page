@@ -170,15 +170,26 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding-top: 2rem;
+  padding: 2rem 2rem;
   row-gap: 4rem;
-  padding-bottom: 3rem;
   column-gap: 3rem;
-  margin: 0 1rem;
 }
 .project-container div {
-  height: 100px;
-  width: 400px;
+  height: 250px;
+  width: 500px;
   border: 2px solid white;
   margin: auto;
+}
+.project-container div:nth-of-type(even) {
+  box-shadow: 0.25rem 0.25rem 3rem rgb(225, 35, 25);
+}
+.project-container div:nth-of-type(odd) {
+  box-shadow: -0.25rem 0.25rem 3rem rgb(101, 71, 224);
+}
+#contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#contact img:nth-of-type(1) {
+  width: 50%;
 }
